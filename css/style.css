@@ -1,0 +1,42 @@
+/* ================
+  Main rules
+================== */
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+}
+.nav {
+
+}
+.main-header {
+  background-color: slategrey;
+  }
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+
+}
+.main-footer {
+  padding: 2em 0;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+/* =====================
+ Media Queries
+=============== */
+
+@media (min-width: 769px) {
+  .wrap {
+    min-height: calc(100vh - 82px);
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+}
