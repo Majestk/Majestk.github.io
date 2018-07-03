@@ -42,8 +42,11 @@ footer {
     background-color: grey;
 
 }
+.carousel-item {
+  align-items: center;
+}
 
-/* Media Breakpoints*/
+/* Media Breakpoints */
 
 @media (min-width : 769px) {
   #notify {
