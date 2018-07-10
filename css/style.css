@@ -42,39 +42,56 @@ footer {
     background-color: grey;
 
 }
+.carousel-control-next, .carousel-control-prev {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+#carouselExampleFade .carousel-inner {
+  height: 200px;
 
+}
+
+#carouselExampleFade .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+#carouselExampleFade .carousel-inner .container {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#carouselExampleFade .carousel-inner .container .carousel-caption {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
 /* Media Breakpoints */
 
-@media (min-width : 769px) {
-  #notify {
-    height:auto;
-    width: 20%;
-  }
-  #main {
-    height: auto;
-    width: 70%;
-    position: relative;
-    background-color: lightblue;
-  }
-  footer {
-    height: auto;
-    width: 10%;
-      background-color: grey;
-}
- @media (min-width : 1025px) {
+
+ @media (min-width : 769px) {
    #notify {
-     height:auto;
-     width: 10%;
+     height:90vh;
+     width: 25%;
    }
    #main {
-     height: auto;
+     height: 90vh;
      width: 75%;
      position: relative;
      background-color: lightblue;
    }
    footer {
-     height: auto;
-     width: 15%;
-       background-color: grey;
+     height: 10vh;
+     width: 100%;
+     background-color: grey;
  }
