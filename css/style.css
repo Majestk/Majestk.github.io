@@ -37,6 +37,9 @@ html {
   height: 50%;
   background-color: white;
 }
+#main .container {
+  height: 100%;
+}
 footer {
     height:10%;
     background-color: grey;
@@ -47,8 +50,9 @@ footer {
   width: 40px;
   background-color: black;
 }
+
 #carouselExampleFade .carousel-inner {
-  height: 200px;
+  height: 300px;
 
 }
 
@@ -59,7 +63,7 @@ footer {
 
 #carouselExampleFade .carousel-inner .container {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -74,6 +78,11 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+#carouselExampleFade .carousel-inner .container .btn {
+  flex-wrap: wrap;
+  margin-bottom: 5px;
 }
 
 /* Media Breakpoints */
