@@ -52,7 +52,7 @@ footer {
 }
 
 #carouselExampleFade .carousel-inner {
-  height: 300px;
+  height: 50vh;
 
 }
 
@@ -88,7 +88,8 @@ footer {
 /* Media Breakpoints */
 
 
- @media (min-width : 769px) {
+
+ @media (min-width : 768px) {
    #notify {
      height:90vh;
      width: 25%;
@@ -103,4 +104,7 @@ footer {
      height: 10vh;
      width: 100%;
      background-color: grey;
+ }
+ .btn {
+   font-size: 1.75rem;
  }
