@@ -17,8 +17,9 @@ html {
     height:40%;
     background-color: white;
     overflow: hidden;
-    display: ;
-    justify-content: center;
+}
+#notify div {
+  text-align: center;
 }
 /* Cool gradient fade on the notify panel */
 #notify:after{
@@ -46,7 +47,13 @@ footer {
     height:10%;
     background-color: grey;
   }
-
+.col {
+  text-align: center;
+}
+p {
+  color: White;
+  background-color: #2d2d2d;
+}
 /*Button carousel styles(Make sure buttons are centered)*/
 
 .carousel-control-next, .carousel-control-prev {
@@ -115,7 +122,11 @@ margin-top: auto;
  .btn {
    font-size: 1.75rem;
  }
+ #carouselExampleFade .carousel-inner{
 
+   height: 70vh;
+
+ }
 @media (min-height : 550px) {
   .btn {
     padding-bottom: 10px;
