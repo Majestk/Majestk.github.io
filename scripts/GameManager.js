@@ -1,7 +1,7 @@
 var gameManager = {
   stores: {
-    Wood : 3000,
-    Stone : 0,
+    Wood : 1000,
+    Stone : 50,
     Iron : 0,
     pop: 0
   },
@@ -26,7 +26,7 @@ var gameManager = {
       buildMSG: 'Built a farm.',
       cost: {
         Wood: 400,
-        Stone: 50,
+        Stone: 80,
         Iron: 0,
         pop: 4
       }
@@ -36,7 +36,7 @@ var gameManager = {
       cost: {
         Wood: 300,
         Stone: 0,
-        Iron: 0,
+        Iron: 200,
         pop: 10
       }
     },
@@ -45,7 +45,7 @@ var gameManager = {
       cost: {
         Wood: 150,
         Stone: 300,
-        Iron: 0,
+        Iron: 200,
         pop: 20
       }
     },
