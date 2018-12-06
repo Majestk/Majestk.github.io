@@ -112,8 +112,16 @@ margin-top: auto;
 /* Media Breakpoints */
 
 
-
- @media (min-width : 768px) {
+ @media (min-width : 1600px) {
+ #carouselExampleFade {
+   width: 65vw;
+   height: 85vh;
+ }
+ #carouselHolder {
+   height: 85vh;
+ }
+}
+ @media (min-width : 768px)  {
    #notify {
      height:90vh;
      width: 25%;
@@ -136,6 +144,7 @@ margin-top: auto;
    height: 80vh;
 
  }
+}
 @media (min-height : 550px) {
   .btn {
     padding-bottom: 10px;
